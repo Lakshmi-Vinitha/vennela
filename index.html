@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Add your meta tags and title -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plant Shop</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      background-image: url('background.jpg');
+      background-size: cover;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    /* Improve contrast for h1 in the header */
+    header h1 {
+      color: rgb(0, 0, 0); /* Black text */
+      background-color: rgb(255, 255, 255); /* White background */
+      padding: 10px; /* Adjust padding as needed */
+      display: inline-block; /* Prevent background from expanding */
+    }
+
+    nav {
+      background-color: #333;
+      overflow: hidden;
+    }
+
+    nav a {
+      float: left;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    section {
+      padding: 20px;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <!-- Improve contrast for h1 in the header -->
+    <h1>Plant Shop</h1>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#plants">Plants</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="home">
+    <h2>Welcome to our Plant Shop!</h2>
+    <p>Explore our beautiful collection of plants.</p>
+
+    <article>
+      <img src="plant1.jpg" alt="Plant 1">
+      <p>Description of Plant 1.</p>
+      <button>Add to Cart</button>
+    </article>
+
+    <article>
+      <img src="plant2.jpg" alt="Plant 2">
+      <p>Description of Plant 2.</p>
+      <button>Add to Cart</button>
+    </article>
+  </section>
+
+  <section id="plants">
+    <h2>Featured Plants</h2>
+    <figure>
+      <video width="400" controls>
+        <source src="plant_video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <figcaption>Video Caption</figcaption>
+    </figure>
+
+    <audio controls>
+      <source src="background_music.mp3" type="audio/mp3">
+      Your browser does not support the audio tag.
+    </audio>
+  </section>
+
+  <footer id="contact">
+    <p>&copy; 2023 Plant Shop. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
